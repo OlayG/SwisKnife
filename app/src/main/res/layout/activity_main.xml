@@ -6,9 +6,38 @@
     android:layout_height="match_parent"
     tools:context="com.example.admin.swisknife.MainActivity">
 
-    <FrameLayout
-        android:id="@+id/flFrame1"
+
+
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></FrameLayout>
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/flFrame1"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></FrameLayout>
+            <FrameLayout
+                android:id="@+id/flFrame2"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></FrameLayout>
+
+        </LinearLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvTaskList"
+            android:layout_weight="5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
 
 </RelativeLayout>

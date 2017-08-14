@@ -1,13 +1,16 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+    android:id="@+id/fragmentPDF"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:drawable/screen_background_light"
     tools:context="com.example.admin.swisknife.PdfViewerFragment">
 
     <com.github.barteksc.pdfviewer.PDFView
-        android:background="@color/colorAccent"
         android:id="@+id/pdfView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"></com.github.barteksc.pdfviewer.PDFView>
+
 
 </FrameLayout>

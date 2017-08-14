@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/cbHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Head"
+        android:checked="true"/>
+
+    <CheckBox
+        android:id="@+id/cbShoulders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shoulders"/>
+
+    <CheckBox
+        android:id="@+id/cbKnees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Knees"/>
+
+    <CheckBox
+        android:id="@+id/cbToes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toes"/>
+
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show" />
+
+</LinearLayout>

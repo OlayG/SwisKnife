@@ -1,0 +1,25 @@
+<FrameLayout
+    android:id="@+id/flStopWatch"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.swisknife.StopWatchViewFragment">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvStopWatch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="90sp"
+            android:textStyle="bold"
+            android:text="00:00:00" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.swisknife.NotificationFragment">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnPdf"
+                android:background="@drawable/round_button_blue"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="PDF"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnTimer"
+                android:background="@drawable/round_button"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="StopWatch"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>
